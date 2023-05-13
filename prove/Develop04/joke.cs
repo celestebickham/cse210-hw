@@ -6,7 +6,6 @@ public class JokeActivity : Activity
     private Random _random = new Random();
 
     public JokeActivity(string activityName, string activityDescription, string activityMessage) : base(activityName, activityDescription, activityMessage)
-
     {
         _listOfPhrases = new List<string>();
         _random = new Random();
@@ -29,7 +28,6 @@ public class JokeActivity : Activity
 
     public string GetRandomPhrase()
     {
-
         int indexOfList = _random.Next(_listOfPhrases.Count);
         return _listOfPhrases[indexOfList];
     }
@@ -48,7 +46,6 @@ public class JokeActivity : Activity
         Console.Clear();
         Console.WriteLine();
 
-
         Random rand = new Random();
         int index = rand.Next(0, listToUsePhrases.Count);
         Console.WriteLine($"---- {listToUsePhrases[index]} ----");
@@ -59,7 +56,6 @@ public class JokeActivity : Activity
 
         if (enterKey == "")
         {
-
             int x = Console.CursorLeft;
             int y = Console.CursorTop;
 

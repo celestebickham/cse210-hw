@@ -76,5 +76,4 @@ public class ListingActivity : Activity
 
         return original;
     }
-
 }

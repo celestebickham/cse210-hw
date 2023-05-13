@@ -11,7 +11,6 @@ public class BreathingActivity : Activity
     }
 
     public BreathingActivity(string activityName, string activityDescription, string activityMessage, int timeActivity) : base(activityName, activityDescription, activityMessage)
-
     {
         string timeString = timeActivity.ToString().PadRight(3, '0');
         DateTime startTime = DateTime.Now;
