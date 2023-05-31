@@ -17,7 +17,7 @@ public class LectureEvent : Event
 
     public override string GetShortDescription()
     {
-        string details = "Lecture \n" + base._eventTitle + "\n" + base._eventdate;
+        string details = "Lecture \n" + base._eventTitle + "\n" + base._eventDate;
         return details;
     }
 }

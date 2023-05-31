@@ -15,7 +15,7 @@ public class OutdoorEvent : Event
 
     public override string GetShortDescription()
     {
-        string details = "Outdoor Gathering \n" + base._eventTitle + "\n" + base._eventdate;
+        string details = "Outdoor Gathering \n" + base._eventTitle + "\n" + base._eventDate;
         return details;
     }
 }

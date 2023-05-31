@@ -14,7 +14,7 @@ public class ReceptionEvent : Event
 
     public override string GetShortDescription()
     {
-        string details = "Reception \n" + base._eventTitle + "\n" + base._eventdate;
+        string details = "Reception \n" + base._eventTitle + "\n" + base._eventDate;
         return details;
     }
 }
